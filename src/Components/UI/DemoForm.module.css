@@ -1,0 +1,25 @@
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: black;
+  font-size: 1rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #76c0ae;
+  border-color:black;
+}
